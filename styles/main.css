@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+.wrapper{
+    width: 1220px;
+    margin: 0 auto;
+    
+
+}
+nav .menu-items{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+nav .menu{
+    padding: 0 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.logotype{
+    display: flex;
+    margin-right: 30%;
+}
+.logo-name{
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+main{
+    margin: 0 150px;
+}
+.title-big{
+    margin: 0;
+    order: 2;
+}
+.text-big{
+    order: 1;
+    margin-top: 80px;
+    max-width: 700px;
+}
+.main-image{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -120px;
+}
+.image{
+    max-width: 320px;
+    height: auto;
+}
+.btn{margin-top: 50px;}
+.button-cousult{
+    top:10px;
+    border-radius: 15px;
+    background-color: blue;
+    padding: 15px;
+    color: beige;
+}
+.wrapper .Services{
+    
+}
+.Services{
+    margin-top: 50px;
+}
+.Services .title-big{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-item{
+    margin: 55px;
+}
